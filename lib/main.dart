@@ -11,7 +11,7 @@ void main() {
       routes: {
         '/': (ctx) => const SplashScreen(),
         'home': (ctx) => const HomeScreen(),
-        'news': (ctx) => const NewsScreen(),
+        'news': (ctx) => NewsScreen(),
       },
     ),
   );
